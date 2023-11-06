@@ -17,7 +17,7 @@ while ($task = $tasks->fetch_assoc()){
     <td><?php echo $task['task_id']; ?></td>
     <td><?php echo $task['title']; ?></td>
     <td><?php echo $task['status']; ?></td>
-    <td><a href="comments-by-task.php">Comments</a></td>
+    <td><a href="tasks-with-comments.php">Comments</a></td>
   </tr>
 <?php
 }
