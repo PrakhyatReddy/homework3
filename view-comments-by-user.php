@@ -4,9 +4,9 @@
     <thead>
       <tr>
         <th>ID</th>
+        <th>Task</th>
+        <th>Comment</th> 
         <th>Name</th>
-        <th>Task</th> 
-        <th>Comment</th>
         <th>Email</th>
         <th>Status</th> 
       </tr>
