@@ -4,7 +4,7 @@
     <thead>
       <tr>
         <th>ID</th>
-        <th>Task ID</th>
+        <th>Task</th>
         <th>Commment</th> 
       </tr>
     </thead>
