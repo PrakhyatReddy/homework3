@@ -26,7 +26,7 @@
           <a class="nav-link" href="comments.php">Comments</a>
         </li>
                 <li class="nav-item">
-          <a class="nav-link" href="tasks-with-courses.php">Tasks with Comments</a>
+          <a class="nav-link" href="tasks-with-comments.php">Tasks with Comments</a>
         </li>
       </ul>
     </div>
