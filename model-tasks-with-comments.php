@@ -1,5 +1,5 @@
 <?php
-function selectTasksWithComments($taskid) {
+function selectTasksWithComments($task_id) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("SELECT
@@ -14,7 +14,7 @@ JOIN Comments c ON t.task_id = c.task_id
 JOIN assignment a ON t.task_id = a.task_id
 JOIN user u ON a.user_id = u.user_id
 WHERE t.task_id=?");
-        $stmt->bind_param("i", $taskid);
+        $stmt->bind_param("i", $task_id);
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
