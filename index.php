@@ -1,8 +1,14 @@
 <?php
-$pageTitle ="Home";
+$pageTitle = "Home";
 include "view-header.php";
 ?>
-      <h1> Homework 3</h1>
+
+<div class="container text-center my-5">
+    <h1>Welcome to Homework 3</h1>
+    <p>Your one-stop solution for managing tasks, comments, and assignments for Homework 3.</p>
+    <a href="tasks-with-comments.php" class="btn btn-primary mt-3">Get Started</a>
+</div>
+
 <?php
 include "view-footer.php";
 ?>
