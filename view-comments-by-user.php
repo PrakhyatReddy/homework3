@@ -16,12 +16,12 @@
     while ($commbyuser = $commentbyuser->fetch_assoc()){
   ?>
   <tr>
-    <td><?php echo $taskswithcomment['task_id']; ?></td>
-    <td><?php echo $taskswithcomment['title']; ?></td>
-    <td><?php echo $taskswithcomment['comment_txt']; ?></td>
-    <td><?php echo $taskswithcomment['user_name']; ?></td>
-    <td><?php echo $taskswithcomment['user_email']; ?></td>
-    <td><?php echo $taskswithcomment['user_id']; ?></td>
+    <td><?php echo $commbyuser['task_id']; ?></td>
+    <td><?php echo $commbyuser['title']; ?></td>
+    <td><?php echo $commbyuser['comment_txt']; ?></td>
+    <td><?php echo $commbyuser['user_name']; ?></td>
+    <td><?php echo $commbyuser['user_email']; ?></td>
+    <td><?php echo $commbyuser['user_id']; ?></td>
   </tr>
 <?php
 }
