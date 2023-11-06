@@ -13,15 +13,15 @@
     </thead>
     <tbody>
 <?php
-while ($taskswithcomments = $comments->fetch_assoc()){
+while ($taskswithcomment = $taskswithcomments->fetch_assoc()){
   ?>
   <tr>
-    <td><?php echo $taskswithcomments['task_id']; ?></td>
-    <td><?php echo $taskswithcomments['title']; ?></td>
-    <td><?php echo $taskswithcomments['comment_txt']; ?></td>
-    <td><?php echo $taskswithcomments['user_name']; ?></td>
-    <td><?php echo $taskswithcomments['user_email']; ?></td>
-    <td><?php echo $taskswithcomments['user_id']; ?></td>
+    <td><?php echo $taskswithcomment['task_id']; ?></td>
+    <td><?php echo $taskswithcomment['title']; ?></td>
+    <td><?php echo $taskswithcomment['comment_txt']; ?></td>
+    <td><?php echo $taskswithcomment['user_name']; ?></td>
+    <td><?php echo $taskswithcomment['user_email']; ?></td>
+    <td><?php echo $taskswithcomment['user_id']; ?></td>
   </tr>
 <?php
 }
