@@ -1,4 +1,4 @@
-<h1>Comments by User</h1>
+<h1>Status by Comment</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
