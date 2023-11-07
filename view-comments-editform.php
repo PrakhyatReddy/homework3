@@ -18,7 +18,7 @@
         <form method="post" action="">
               <div class="mb-3">
                 <label for="cNumber<?php echo $comment['comment_id']; ?>" class="form-label">Task Number</label>
-                  <input type="text" class="form-control" id="cNumber<?php echo $comment['comment_id']; ?>" name="cNumber" value="<?php echo $comment['task_id']; ?>">
+                  <input type="text" class="form-control" id="cNumber<?php echo $comment['comment_id']; ?>" name="cNumber<?php echo $comment['comment_id']; ?>" value="<?php echo $comment['task_id']; ?>">
               </div>
               <div class="mb-3">
                 <label for="cDesc <?php echo $comment['comment_id']; ?>" class="form-label">Comment</label>
