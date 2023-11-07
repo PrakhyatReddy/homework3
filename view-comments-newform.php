@@ -20,11 +20,11 @@
                 <label for="cNumber" class="form-label">Task Number</label>
                 <input type="text" class="form-control" id="cNumber" name="cNumber">
               </div>
-          
               <div class="mb-3">
                 <label for="cDesc" class="form-label">Comment</label>
                 <input type="text" class="form-control" id="cDesc" name="cDesc">
               </div>
+                <input type ="hidden" name="actionType" value="add">
               <button type="submit" class="btn btn-primary">Save</button>
 </form>
       </div>
