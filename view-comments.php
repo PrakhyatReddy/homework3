@@ -29,6 +29,11 @@ while ($comment = $comments->fetch_assoc()){
     <td><?php echo $comment['title']; ?></td>
     <td><?php echo $comment['comment_txt']; ?></td>
     <td>
+         <?php
+         include "view-comments-editform.php";
+         ?>
+    </td>
+    <td>
         <form method ="post" action="">
         <input type="hidden" name="cid" vaLue="<?php echo $comment['comment_id']; ?>">
         <input type="hidden" name="actionType" value="Delete">
@@ -39,12 +44,6 @@ while ($comment = $comments->fetch_assoc()){
 </svg>
         </button>
         </form>      
-    </td>
-    <td>
-        <form method ="post" action="comments-by-user.php">
-        <input type="hidden" name="cid" vaLue="<?php echo $comment['comment_id']; ?>">
-        <button type="submit" class="btn btn-primary">Status</button>
-        </form>
     </td>
     <td>
       <form method ="post" action="comments-by-user.php">
