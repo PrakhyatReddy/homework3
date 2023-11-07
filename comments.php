@@ -8,7 +8,7 @@ include "view-header.php";
 if (isset($_POST['actionType'])){
   switch($_POST['actionType']){
     case "Add":
-      insertComments($_Post['cNumber'], $_POST['cDesc']);
+      insertComments($_POST['cNumber'], $_POST['cDesc']);
       break;
   }
 }
